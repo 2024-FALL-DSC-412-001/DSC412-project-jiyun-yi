@@ -1,0 +1,1340 @@
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.500
+Time:                        20:47:30   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.295
+Time:                        20:47:30   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.214
+Time:                        20:47:31   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        20:47:31   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.298
+Time:                        20:47:31   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.124
+Time:                        20:47:31   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.500
+Time:                        20:48:06   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.295
+Time:                        20:48:06   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.214
+Time:                        20:48:06   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        20:48:06   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.298
+Time:                        20:48:06   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.124
+Time:                        20:48:06   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.500
+Time:                        20:48:32   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.295
+Time:                        20:48:32   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.214
+Time:                        20:48:32   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        20:48:32   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.298
+Time:                        20:48:32   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.124
+Time:                        20:48:32   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+sisisisi
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.500
+Time:                        21:18:28   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.295
+Time:                        21:18:28   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+/n
+sisisisi
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.214
+Time:                        21:18:29   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        21:18:29   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+/n
+sisisisi
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.298
+Time:                        21:18:29   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Sun, 03 Nov 2024   Prob (F-statistic):              0.124
+Time:                        21:18:29   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+/n
+sisisisi
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.124
+Time:                        15:13:24   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:21:58   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:21:58   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:22:20   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:22:20   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:22:37   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:22:37   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+si
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:23:08   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:23:08   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+si
+DataFrame head:
+   Price_Change  Sentiment_Score  Revenue
+0          2.53             0.09    23518
+1          4.94             0.05    29061
+2          7.06             0.04    32250
+3          6.58             0.07    29460
+Checking for NaN values:
+Price_Change       0
+Sentiment_Score    0
+Revenue            0
+dtype: int64
+Price Change and Sentiment Score Correlation: -0.75
+Sentiment Score and Revenue Correlation: -0.91
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.559
+Model:                            OLS   Adj. R-squared:                  0.339
+Method:                 Least Squares   F-statistic:                     2.536
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.252
+Time:                        15:24:36   Log-Likelihood:                 11.773
+No. Observations:                   4   AIC:                            -19.55
+Df Residuals:                       2   BIC:                            -20.77
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1053      0.028      3.714      0.065      -0.017       0.227
+Price_Change    -0.0081      0.005     -1.592      0.252      -0.030       0.014
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.771
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.382
+Skew:                           0.239   Prob(JB):                        0.826
+Kurtosis:                       1.563   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.827
+Model:                            OLS   Adj. R-squared:                  0.741
+Method:                 Least Squares   F-statistic:                     9.576
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):             0.0905
+Time:                        15:24:36   Log-Likelihood:                -34.405
+No. Observations:                   4   AIC:                             72.81
+Df Residuals:                       2   BIC:                             71.58
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.794e+04   3168.556     11.975      0.007    2.43e+04    5.16e+04
+Sentiment_Score   -1.5e+05   4.85e+04     -3.094      0.090   -3.58e+05    5.86e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.863
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.444
+Skew:                           0.517   Prob(JB):                        0.801
+Kurtosis:                       1.737   Cond. No.                         52.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+End of analysis.
+a
+a
+Price Change and Sentiment Score Correlation: -0.75
+Sentiment Score and Revenue Correlation: -0.91
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:43:56   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:43:56   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+sisisisi
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.214
+Time:                        15:43:56   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        15:43:56   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+sisisisi
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.298
+Time:                        15:43:57   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.124
+Time:                        15:43:57   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+sisisisi
+Price Change and Sentiment Score Correlation: -0.50
+Sentiment Score and Revenue Correlation: -0.71
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                 -0.126
+Method:                 Least Squares   F-statistic:                    0.6654
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.500
+Time:                        15:44:39   Log-Likelihood:                 7.5662
+No. Observations:                   4   AIC:                            -11.13
+Df Residuals:                       2   BIC:                            -12.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -0.5620      0.081     -6.925      0.020      -0.911      -0.213
+Price_Change    -0.0119      0.015     -0.816      0.500      -0.075       0.051
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.038
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.381
+Skew:                           0.549   Prob(JB):                        0.826
+Kurtosis:                       1.960   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.498
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     1.981
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.295
+Time:                        15:44:39   Log-Likelihood:                -36.540
+No. Observations:                   4   AIC:                             77.08
+Df Residuals:                       2   BIC:                             75.85
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -4544.9828   2.36e+04     -0.193      0.865   -1.06e+05    9.69e+04
+Sentiment_Score -5.301e+04   3.77e+04     -1.408      0.295   -2.15e+05    1.09e+05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.856
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.180
+Skew:                          -0.087   Prob(JB):                        0.914
+Kurtosis:                       1.977   Cond. No.                         33.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+Price Change and Sentiment Score Correlation: -0.79
+Sentiment Score and Revenue Correlation: -0.93
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.617
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     3.223
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.214
+Time:                        15:44:39   Log-Likelihood:                 11.930
+No. Observations:                   4   AIC:                            -19.86
+Df Residuals:                       2   BIC:                            -21.09
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1084      0.027      3.977      0.058      -0.009       0.226
+Price_Change    -0.0088      0.005     -1.795      0.214      -0.030       0.012
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.764
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.404
+Skew:                           0.308   Prob(JB):                        0.817
+Kurtosis:                       1.570   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.870
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     13.35
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):             0.0674
+Time:                        15:44:39   Log-Likelihood:                -33.841
+No. Observations:                   4   AIC:                             71.68
+Df Residuals:                       2   BIC:                             70.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.781e+04   2654.944     14.242      0.005    2.64e+04    4.92e+04
+Sentiment_Score  -1.49e+05   4.08e+04     -3.653      0.067   -3.25e+05    2.65e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.900
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                           0.666   Prob(JB):                        0.781
+Kurtosis:                       1.905   Cond. No.                         50.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+Price Change and Sentiment Score Correlation: -0.70
+Sentiment Score and Revenue Correlation: -0.88
+Sentiment Score ~ Price Change Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sentiment_Score   R-squared:                       0.493
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     1.942
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.298
+Time:                        15:44:40   Log-Likelihood:                 8.6286
+No. Observations:                   4   AIC:                            -13.26
+Df Residuals:                       2   BIC:                            -14.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.2102      0.062      3.378      0.078      -0.058       0.478
+Price_Change    -0.0156      0.011     -1.394      0.298      -0.064       0.033
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.809
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.486
+Skew:                           0.560   Prob(JB):                        0.784
+Kurtosis:                       1.711   Cond. No.                         18.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Revenue ~ Sentiment Score Regression Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Revenue   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     6.571
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):              0.124
+Time:                        15:44:40   Log-Likelihood:                -35.006
+No. Observations:                   4   AIC:                             74.01
+Df Residuals:                       2   BIC:                             72.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const             3.76e+04   3684.113     10.206      0.009    2.17e+04    5.35e+04
+Sentiment_Score -7.056e+04   2.75e+04     -2.563      0.124   -1.89e+05    4.79e+04
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.830
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.548
+Skew:                           0.774   Prob(JB):                        0.760
+Kurtosis:                       2.056   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
