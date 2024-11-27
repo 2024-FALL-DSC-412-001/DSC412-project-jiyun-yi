@@ -1338,6 +1338,3 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
-Data collection for 2019 completed and saved to 'starbucks_opinions_2019.txt'. Total opinions collected: 227.
-Data collection for 2020 completed and saved to 'starbucks_opinions_2020.txt'. Total opinions collected: 500.
-Data collection for 2020 completed and saved to 'starbucks_opinions_2020.txt'. Total opinions collected: 500.
